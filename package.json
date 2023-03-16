@@ -1,9 +1,12 @@
 {
   "name": "3d-portfolio",
+  "homepage": "https://pujapkc.github.io/Portfolio_Puja_Choursiya",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -13,6 +16,7 @@
     "@react-three/drei": "^9.57.0",
     "@react-three/fiber": "^8.11.7",
     "framer-motion": "^10.0.2",
+    "gh-pages": "^5.0.0",
     "maath": "^0.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
