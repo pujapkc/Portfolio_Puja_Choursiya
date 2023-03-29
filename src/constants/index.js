@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    clock,
+    tic,
+    weather,
     
   } from "../assets";
   
@@ -43,21 +46,21 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "React Developer",
       icon: web,
     },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
+     {
+      title: "JAVA Developer",
+       icon: mobile,
+     },
+    // {
+    //   title: "Backend Developer",
+    //   icon: backend,
+    // },
+     {
+       title: "Problem Solver",
       icon: creator,
-    },
+     },
   ];
   
   const technologies = [
@@ -73,26 +76,17 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+    
     {
       name: "MongoDB",
       icon: mongodb,
@@ -105,14 +99,7 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+   
   ];
   
   const experiences = [
@@ -199,66 +186,64 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Tic Tac Toe",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "It is a fun game for users.",
       tags: [
         {
-          name: "react",
+          name: "Html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: tic,
+      source_code_link: "https://github.com/pujapkc/Tic-Tac-Toe-game",
     },
     {
-      name: "Job IT",
+      name: "Digital and Analog Clock",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to see a wonderful analog and digital clock.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: clock,
+      source_code_link: "https://github.com/pujapkc/Analog-and-Digital-Clock",
     },
     {
-      name: "Trip Guide",
+      name: "Weather Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A website which shows realtime weather.",
       tags: [
+       
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "react js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: " css",
           color: "pink-text-gradient",
         },
+       
       ],
-      image: tripguide,
+      image: weather,
       source_code_link: "https://github.com/",
     },
   ];
